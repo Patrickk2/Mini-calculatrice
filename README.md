@@ -1,0 +1,2 @@
+# Mini-calculatrice
+Learning Python
