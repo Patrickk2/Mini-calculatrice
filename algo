@@ -1,0 +1,39 @@
+### Algorithme : Mini-calculatrice
+
+1. **Afficher un message de bienvenue**
+   "Bienvenue dans la mini-calculatrice !"
+
+2. **Initialiser la boucle principale**
+   Tant que l’utilisateur ne choisit pas de quitter :
+
+   2.1. **Demander le premier nombre**
+
+   * Lire `a`
+
+   2.2. **Demander le deuxième nombre**
+
+   * Lire `b`
+
+   2.3. **Demander l’opération à effectuer**
+
+   * Lire `operation` (ex : +, -, *, /, etc.)
+
+   2.4. **Calculer le résultat**
+
+   * Si `operation` est `+`, alors `resultat = a + b`
+   * Sinon si `operation` est `-`, alors `resultat = a - b`
+   * Sinon si `operation` est `*`, alors `resultat = a * b`
+   * Sinon si `operation` est `/` :
+
+     * Si `b != 0`, `resultat = a / b`
+     * Sinon, afficher "Erreur : division par zéro"
+   * Sinon, afficher "Opération non reconnue"
+
+   2.5. **Afficher le résultat**
+
+   2.6. **Demander si l’utilisateur veut continuer**
+
+   * Si non, sortir de la boucle
+
+3. **Afficher un message de fin**
+   "Merci d’avoir utilisé la mini-calculatrice !"
